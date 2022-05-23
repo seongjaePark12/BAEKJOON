@@ -23,28 +23,28 @@ public class Level7 {
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
 		int a, b, c;
-        int d = 0;
-		a = sc.nextInt();
-		b = sc.nextInt();
-        c = sc.nextInt();
-        if((a==b && a==c) && b==c){
-           d = 10000 + (a * 1000);
-           System.out.println(d);
-        }
-        else if(a == b || a == c){
-            d = 1000 + (a * 100); 
-            System.out.println(d);
-        }
-        else if(b == c){
-            d = 1000 + (b * 100); 
-            System.out.println(d);
-        }
-        else{
-            if(a<b) {a=b;}
-			if(a<c) {a=c;}
-			d=(a*100);
-            System.out.println(d);
-        }
-     sc.close();
+		int d = 0;
+			a = sc.nextInt();
+			b = sc.nextInt();
+		c = sc.nextInt();
+		if((a==b && a==c) && b==c){
+		   d = 10000 + (a * 1000);
+		   System.out.println(d);
+		}
+		else if(a == b || a == c){
+		    d = 1000 + (a * 100); 
+		    System.out.println(d);
+		}
+		else if(b == c){
+		    d = 1000 + (b * 100); 
+		    System.out.println(d);
+		}
+		else{
+		    if(a<b) {a=b;}
+				if(a<c) {a=c;}
+				d=(a*100);
+		    System.out.println(d);
+		}
+	     sc.close();
 	}
 }
