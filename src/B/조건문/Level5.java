@@ -25,13 +25,13 @@ public class Level5 {
 		int H, M;
 		H = sc.nextInt();
 		M = sc.nextInt();
-        if(M<45 ) {
+        	if(M<45 ) {
 			H = H-1;
-            if(H<0){H = 23;}
+            	if(H<0){H = 23;}
 			M = 60 -(45-M);
 			System.out.println(H + " " + M);
 		}
 		else {System.out.println(H + " " + (M-45));}
-    sc.close();
+   		 sc.close();
 	}
 }
