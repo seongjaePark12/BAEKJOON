@@ -21,9 +21,9 @@ public class Level1 {
 		int a, b;
 		a = sc.nextInt();
 		b = sc.nextInt();
-    if(a>b){System.out.println(">");}
-    else if(a<b){System.out.println("<");}
-    else if(a == b){System.out.println("==");}
-    sc.close();    
+    		if(a>b){System.out.println(">");}
+    		else if(a<b){System.out.println("<");}
+    		else if(a == b){System.out.println("==");}
+    		sc.close();    
 	}
 }
