@@ -21,12 +21,12 @@ import java.time.format.DateTimeFormatter;
 @SuppressWarnings("unused")
 public class Level6 {
 	public static void main(String args[]){
-    Scanner sc = new Scanner(System.in);
-    int hour = sc.nextInt();
-    int minute = sc.nextInt();
-    int plusMinute = sc.nextInt();
-    LocalTime lt = LocalTime.of(hour, minute).plusMinutes(plusMinute);
-    System.out.print(lt.getHour()+" "+lt.getMinute());
-    sc.close();
+	    Scanner sc = new Scanner(System.in);
+	    int hour = sc.nextInt();
+	    int minute = sc.nextInt();
+	    int plusMinute = sc.nextInt();
+	    LocalTime lt = LocalTime.of(hour, minute).plusMinutes(plusMinute);
+	    System.out.print(lt.getHour()+" "+lt.getMinute());
+	    sc.close();
 	}	
 }
